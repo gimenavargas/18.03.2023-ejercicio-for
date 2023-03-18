@@ -19,7 +19,7 @@ public class Bucle_suma {
         int n = number.nextInt();
         
         int suma = 0; 
-        for(int numero = 1; numero <=n; numero ++){
+        for(int numero = 0; numero <=n;numero+=numero*2){
             suma = suma + numero;
         }
         System.out.println("la suma es:"+suma);
